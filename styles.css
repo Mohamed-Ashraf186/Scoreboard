@@ -1,0 +1,78 @@
+@font-face {
+    font-family: myFont;
+    src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+/* containers */
+
+.big-container {
+    color: white;
+    background-color: #1B244A;
+    max-width: 60%;
+    margin: 100px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.small-container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* score section */
+.score-container{
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+}
+
+.score-screen{
+    padding:20px 50px;
+    font-size: 2.2em;
+    background-color: black;
+    font-family: myFont;
+    color: #F94F6D;
+}
+
+.btn-container{
+    margin-top:20px;
+}
+
+.screen-btn{
+    font-size: 0.4em;
+    font-family: myFont;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* new game section */
+
+.new-game{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.new-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px;
+    color: white;
+    background-color: #ad1733;
+    text-shadow: 0px 0px 5px black;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+}
